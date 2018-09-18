@@ -39,7 +39,7 @@ if (!nounInput.value) {
     }
     
     else{
-        	const story = "Once there was a " + noun + " named Jay, that was known to " + verb +"." + " He/she was " + adjective + " indeed, and lived at the one and only " + place + "."
+        	const story = "Once there was a " + nounInput.value + " named Jay, that was known to " + verbInput.value +"." + " He/she was " + adjectiveInput.value + " indeed, and lived at the one and only " + placeInput.value + "."
 	storyP.textContent = story;
         
 
